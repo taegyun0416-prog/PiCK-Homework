@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     private lazy var emailTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "학교 이메일을 입력해주세요"
+        textField.autocapitalizationType = .none
         textField.backgroundColor = UIColor(white: 0.95, alpha: 1.0)
         textField.layer.cornerRadius = 8
         textField.font = .systemFont(ofSize: 14, weight: .regular)
